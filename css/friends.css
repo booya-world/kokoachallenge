@@ -1,0 +1,113 @@
+.inner-screen{
+    display: flex;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    height: 100vh;
+    left: 0px;
+    background-color: #f9f9fa;
+}
+.chat_btn{
+    position: relative;
+}
+@keyframes notificationAnimation {
+    0%{
+        transform:none;
+    }
+    50%{
+        transform:translateY(-5px) rotateY(180deg);
+    }
+    100%{
+        transform:none;
+    }
+}
+.nav__notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    animation: notificationAnimation 3s ease-in-out infinite;
+}
+.nav-bar i{
+    padding: 10px;
+}
+.screen-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+}
+.my-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-profile__img{
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+}
+.my-profile div:nth-child(2){
+    margin-left: 10px;
+}
+.my-music{
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+}
+.friends-bar__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    opacity: 0.6;;
+    border-top: 1px solid rgba(0, 0, 0,.3);
+    padding: 10px 2px;
+}
+.friend-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.friend-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.friend-profile__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.friend-profile div:last-child{
+    padding-left: 10px;
+}
+.friend-music{
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 4px;
+    margin-right: 10px;
+}
+

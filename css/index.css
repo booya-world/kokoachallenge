@@ -1,0 +1,28 @@
+.welcome-header, #login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-header__title {
+    font-family: 'Taviraj', serif;
+}
+.welcome-header__text {
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+}
+#login-form input{
+    width: 400px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+#login-form input::placeholder {
+    font-size: 20px;
+    font-family: 'Taviraj', serif;
+    padding-left: 20px;
+}
+.login-form__submit.value{
+    font-size: 20px;
+    font-family: 'Taviraj', serif;
+    padding-left: 20px;
+}
